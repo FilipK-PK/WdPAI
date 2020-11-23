@@ -27,9 +27,9 @@ class SecuritiControler extends AppController
             return $this->render('logowanie', ['messages' => ['Wrong password']]);
         }
 
-       // return $this->render('panel_startowy');
+       return $this->render('panel_startowy');
 
-        $url = "http://$_SERVER[HTTP_HOST]";
-        header("Location: {$url}/projects");
+       // $url = "http://$_SERVER[HTTP_HOST]";
+       // header("Location: {$url}/projects");
     }
 }
