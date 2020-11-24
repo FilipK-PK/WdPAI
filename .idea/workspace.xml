@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49821320-b1b0-495a-9eeb-29624683e348" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/SecuritiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SecuritiController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,8 @@
       <updated>1606162904932</updated>
       <workItem from="1606162906228" duration="872000" />
       <workItem from="1606166624261" duration="408000" />
+      <workItem from="1606167146862" duration="436000" />
+      <workItem from="1606209145328" duration="1746000" />
     </task>
     <servers />
   </component>

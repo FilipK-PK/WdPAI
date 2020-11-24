@@ -9,10 +9,10 @@ class SecuritiControler extends AppController
     {
         $user = new Users('abc', '123', 'jan', 'kos');
 
-        if($this->isPost())
+        /*if($this->isPost()) // blad ?
         {
-            return $this->login('logowanie');
-        }
+            return $this->render('logowanie');
+        }*/
 
         $email = $_POST["email"];
         $password = $_POST["password"];
@@ -27,9 +27,9 @@ class SecuritiControler extends AppController
             return $this->render('logowanie', ['messages' => ['Wrong password']]);
         }
 
-       return $this->render('panel_startowy');
+       //return $this->render('panel_startowy');
 
-       // $url = "http://$_SERVER[HTTP_HOST]";
-       // header("Location: {$url}/projects");
+        $url = "http://$_SERVER[HTTP_HOST]";
+        header("Location: {$url}/projects");
     }
 }
